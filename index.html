@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./Styles/estilos.css">
+    <script src="https://kit.fontawesome.com/e78b9f8606.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <!-- Armado de la barra superior-->
+        <i class="fa-regular fa-envelope"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+    </header>
+
+    <main>
+        <div class="columns">
+          <button id="btnexperiencia" class="column zoom">Experiencia</button>
+          <button class="column zoom" id="btnhabilidades">Habilidades</button>
+        </div>
+        <img id="fotopersona" class="foto-circular zoom" src="./images/Mitchell.cv.jpg" alt="Ingeniero Mitchell Cooper">
+        <h1 class="titulo">
+          <div id="nombre"></div>
+        </h1>
+        <h2 class="subtitulo">
+          Director de Programación
+        </h2>
+        <p id="info" class="texto"></p>
+        <ul class="iconos">
+          <li><a href=""><i id="email" class="fa fa-envelope"></i></a></li>
+          <li><a href=""><i id="cumple" class="fa fa-birthday-cake"></i></a></li>
+          <li><a href=""><i id="direccion" class="fa fa-map-marker"></i></a></li>
+          <li><a href=""><i id="telefono" class="fa fa-phone"></i></a></li>
+        </ul>
+      </main>
+      <section id="idexperiencia" class="experiencia">
+        <h2>Experiencia<a href=""><i id="cerrarexperiencia" class="fa fa-times"></i></a></h2>
+        <hr>
+        <p>10/2018 – Presente Analista – Programador, Servicios Técnicos IT, Bilbao
+
+            Toma de requerimientos con el cliente
+            Análisis de requerimientos y diseño de aplicaciones
+            Desarrollo de aplicaciones utilizando Javascript, PHP, MySQL
+            Soporte técnico a clientes
+            <br><br>
+            12/2014 - 10/2018 Programador Full Stack, Finanbest, Madrid
+            Desarrollo Front End y Back End de aplicaciones con Typescript, Javascript, PHP, MySQL, HTML5
+            Realización de test de aplicaciones
+            Solución de incidencias</p>
+      </section>
+      <section id="idhabilidades" class="habilidades">
+        <h2>Habilidades<a href=""><i id="cerrarhabilidades" class="fa fa-times"></i></a></h2>
+        <hr>
+        <p>Javacript<br>
+            PHP<br>
+            MySQL<br>
+            HTML5<br>
+            Typescript<br>
+            Angular<br>
+            Bootstrap</p>
+      </section>
+    
+    <footer>
+        <i class="fa-regular fa-copyright"></i>
+        2023 All rights reserved
+    </footer>
+
+    <script src="./Funciones/function.js"></script>
+
+</body>
+</html>
